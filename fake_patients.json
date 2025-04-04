@@ -1,0 +1,74 @@
+{
+    "Jane Smith (ICU)": {
+        "age": 72,
+        "location": "ICU",
+        "active_problems": [
+            "Sepsis",
+            "Hypertension"
+        ],
+        "labs": {
+            "Lactate": "4.2 mmol/L",
+            "Creatinine": "1.9 mg/dL",
+            "WBC": "14.5 x10^9/L"
+        },
+        "recent_orders": [
+            "IV Ceftriaxone",
+            "Fluid Bolus",
+            "Blood Cultures"
+        ]
+    },
+    "Carlos Ramirez (ED)": {
+        "age": 58,
+        "location": "ED",
+        "active_problems": [
+            "Chest Pain",
+            "Diabetes"
+        ],
+        "labs": {
+            "Troponin": "0.06 ng/mL",
+            "Glucose": "280 mg/dL",
+            "EKG": "ST Depression"
+        },
+        "recent_orders": [
+            "Aspirin",
+            "EKG",
+            "Cardiology consult"
+        ]
+    },
+    "Lena Thompson (Wards)": {
+        "age": 83,
+        "location": "General Medicine Ward",
+        "active_problems": [
+            "Pneumonia",
+            "Dementia"
+        ],
+        "labs": {
+            "CRP": "120 mg/L",
+            "WBC": "17.0 x10^9/L",
+            "O2 Sat": "89% on Room Air"
+        },
+        "recent_orders": [
+            "Chest X-ray",
+            "IV Ceftriaxone",
+            "Oxygen Therapy"
+        ]
+    },
+    "Dev Patel (Post-Op)": {
+        "age": 45,
+        "location": "Surgical Recovery",
+        "active_problems": [
+            "Post-op Day 2 - Colectomy",
+            "Anemia"
+        ],
+        "labs": {
+            "Hemoglobin": "8.1 g/dL",
+            "Platelets": "210 x10^9/L",
+            "Temp": "38.3\u00b0C"
+        },
+        "recent_orders": [
+            "CBC",
+            "Tylenol",
+            "Surgical Site Inspection"
+        ]
+    }
+}
