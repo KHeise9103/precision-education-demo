@@ -72,12 +72,9 @@ if page == "🧠 Precision Prompt Demo":
         st.markdown("""
 **Sepsis Management Summary**
 
-- Administer 30 mL/kg IV crystalloids for hypotension or lactate ≥4 mmol/L.
-- Give broad-spectrum antibiotics within 1 hour.
-- Reassess volume status and perfusion after initial resuscitation.
-- Consider vasopressors if MAP < 65 mmHg.
+In summary, immediate resuscitation with 30 mL/kg balanced crystalloids, early empiric antibiotics (within 1 hour for shock), dynamic monitoring of fluid responsiveness, and individualized MAP targets (potentially higher in elderly hypertensive patients with AKI) are the cornerstones of guideline-based sepsis management in the ICU. Ongoing assessment and adaptation of therapy are essential, particularly in complex scenarios involving advanced age, hypertension, and renal dysfunction.[1-4][6-8]
 
-*Source: Surviving Sepsis Campaign 2021*
+*Source: Open Evidence, Surviving Sepsis Campaign 2021*
 """)
     elif "chest pain" in engineered_prompt.lower():
         st.markdown("""
